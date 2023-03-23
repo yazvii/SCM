@@ -1,6 +1,6 @@
 import random
 
-hellow = ["hi","is anyone there?", "hello", "good day","hello there"]
+hello = ["hi","is anyone there?", "hello", "good day","hello there"]
 bye = ["see ya", "see you later","bye" ,"goodbye", "i am Leaving", "have a Good day"]
 howare = ["how are you","whats up","how you doing"]
 name = ["whats your name","what is your name","do you have any name","what should i call you","name"]
@@ -9,7 +9,7 @@ hours = ["when are you guys open", "what are your hours", "hours of operation","
 print("*******\n")
 while True:
  a = input('User said -')
- if a.lower() in hellow:
+ if a.lower() in hello:
   botans = ["Hello !","hi","hi there","welcome"]
   print('Bot said - '+random.choice(botans)+'\n')
  elif a.lower() in bye:
